@@ -303,6 +303,8 @@ plot_espectra <- function(l, type){
   # type = tipo de gráfico
   #        0 = Espectro de emisión regular
   #        1 = Espectro de emisión a partir de datos medidos en espectro 3D
+  # Salidas:
+  # Gráfico con los espectros superpuestos
   
   # Vector con los colores de las gráficas
   color_val <- c("red","blue", "green")
